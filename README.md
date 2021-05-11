@@ -49,7 +49,7 @@ The input and output variables are defined as follows:
 
 If you find the Targeted Node Deletion Toolbox to be useful, and apply it in your research, please cite the following [article](https://www.biorxiv.org/content/10.1101/2021.03.28.437394v1) in which we first use these analyses:
 
-Terstege, DJ, Durante, IM, Epp, JR, Brain-wide neuronal activation and functional connectivity are modulated by prior exposure to repetitive learning episodes.
+Terstege DJ, Durante IM, Epp JR, Brain-wide neuronal activation and functional connectivity are modulated by prior exposure to repetitive learning episodes.
 
 <a name="contact"/>
 
