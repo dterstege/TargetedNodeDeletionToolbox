@@ -17,7 +17,9 @@ TargetedNodeDeletionToolbox was created by Dylan Terstege, a Neuroscience PhD ca
 
 ## 1. Attack Parameters
 
-WRITE STUFF HERE
+In the current analyses, targeted node deletion occurs in descending order of node degree.  Initial analyses are conducted on the intact network.  Degree is calculated and the node with the highest degree is removed from the network.  Analyses are reassessed on the attacked network before degree is recalculated and the node with the highest remaining degree is removed.
+
+In the case where two nodes have the same degree, the node which is listed first in the network is removed first.
 
 <a name="vars"/>
 
@@ -40,7 +42,7 @@ Terstege, DJ, Durante, IM, Epp, JR, Brain-wide neuronal activation and functiona
 **Contributors:**
 - **Dylan Terstege*** (code/tool conceptualization/written documentation) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
 <dylan.terstege@ucalgary.ca>
-- Daniela Oboh (atlas plates)
+
 
 Principal Investigator:
 - Jonathan Epp (tool conceptualization) - https://epplab.com
