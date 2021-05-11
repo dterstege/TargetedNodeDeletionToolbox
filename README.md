@@ -25,7 +25,11 @@ In the case where two nodes have the same degree, the node which is listed first
 
 ## 2. Variable Definitions
 
-WRITE STUFF HERE
+The function is as follows:
+
+```Matlab
+dsfs
+```
 
 <a name="cite"/>
 
