@@ -4,17 +4,18 @@ function [GC,E]=targeteddeletioncurve(cor,thresh)
 %
 %Targeted node deletion
 %Deletes nodes in order, from highest degree to smallest degree, and
-%reports the size of the largest component with each successive deletion
+%reports the size of the largest component and global efficiency with each successive deletion
 %
-%   [GC]=targeteddeletioncurve(cormat,thresh)
+%   [GC,E]=targeteddeletioncurve(cormat,thresh)
 %
 %INPUTS:
-%   cormat = square correlation matrix
+%   cor = square correlation matrix
 %   thresh = threshold at which matrix will be binarized
 %       Default set to 0.8
 %
 %OUTPUT:
-%   GC = vector containing list of giant component size
+%   GC = vector containing list of giant component sizes
+%   E = vector containing list of global efficiencies
 %
 %%Created 01/26/2021 Dylan Terstege
 %Epp Lab, University of Calgary
