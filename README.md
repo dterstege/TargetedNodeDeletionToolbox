@@ -1,6 +1,6 @@
 # TargetedNodeDeletionToolbox
 
-The **Targeted Node Deletion Toolbox** is a collection of MATLAB functions for the analysis of various network parameters.
+The **Targeted Node Deletion Toolbox** is a collection of MATLAB functions for the analysis of various parameters in undirected networks.
 
 TargetedNodeDeletionToolbox was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
@@ -28,8 +28,20 @@ In the case where two nodes have the same degree, the node which is listed first
 The function is as follows:
 
 ```Matlab
-dsfs
+[GC,E] = targeteddeletioncurve(cor,thresh)
 ```
+
+The input and output variables are defined as follows:
+
+**Inputs**
+
+- **cor**: input correlation matrix representing the matrix.  Must be formatted as a double.  Its dimensions must be square.
+- **thresh**: the threshold which will be used to binarize the correlation matrix.  Any value greater than or equal to this value will be set to 1, while anything less than this value will be set to 0.  The default value for this parameter is 0.8.
+
+**Outputs**
+
+- **GC**: 
+- **E**: 
 
 <a name="cite"/>
 
