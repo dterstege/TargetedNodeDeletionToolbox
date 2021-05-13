@@ -40,8 +40,8 @@ The input and output variables are defined as follows:
 
 **Outputs**
 
-- **GC**: 
-- **E**: 
+- **GC**: a vector listing the giant component size with each successive targeted node deletion.  In this case, the giant component is defined as the largest set of connected nodes.
+- **E**: a vector listing the global network efficiency with each successive targeted node deletion.  In this case, the global network efficiency is defined as the inverse of the mean shortest path length between all sets of nodes in the network.
 
 <a name="cite"/>
 
